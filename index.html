@@ -1,0 +1,837 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="shortcut icon" href="img/website_logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--Background Animation-->
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+    <!-- NavBar -->
+
+    <nav class="navbar">
+      <div class="navtitle">
+        <div class="weblogo">
+          <img src="img/website_logo.png" />
+        </div>
+        <div class="webname">
+          <h2>
+            MY
+          </h2>
+          <h6>
+            Music Player
+          </h6>
+        </div>
+      </div>
+      <div class="fav">
+        <h3>Favourites</h3>
+      </div>
+      <div class="search">
+        <div>
+          <i class="fas fa-search search-ico"></i>
+        </div>
+        <input type="search" name="search" placeholder="Search" />
+        <div>
+          <i class="fas fa-microphone mic-ico"></i>
+        </div>
+      </div>
+      <div class="bell">
+        <img src="img/bell_icon.svg" />
+      </div>
+      <div class="profile">
+        <img src="img/profile_picture.jpeg" />
+      </div>
+    </nav>
+    <main>
+      <aside class="one first">
+        <div class="outer">
+          <div class="carousel">
+            <img src="img/top2.jpeg" />
+            <img src="img/top1.jpeg" />
+            <img src="img/top3.jpeg" />
+          </div>
+        </div>
+        <!--latest release section -->
+        <div class="latest">
+          <h1 style="margin-bottom: 12px;">
+            Latest Release
+          </h1>
+          <div class="latest-content">
+            <div class="card">
+              <div>
+                <img src="img/bava.jpeg" />
+                <!-- <div class="play-button">
+                                <i class="fa fa-play" style="width:45%; height:45%; display:inline-block"></i>
+                            </div>  -->
+              </div>
+              <div class="songs">
+                <h3>
+                  Bava Garu Vache Vela
+                </h3>
+                <p>
+                  6 Jul 2016
+                </p>
+              </div>
+              <div class="options">
+                <label for="latest-release-checkbox"
+                  ><i class="fas fa-ellipsis-h"></i
+                ></label>
+                <input type="checkbox" id="latest-release-checkbox" />
+                <div class="latest-dropdown">
+                  <div class="ditem">
+                    <p>
+                      <i class="fas fa-play-circle"></i>
+                      <a href="#">Play Now</a>
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="ditem">
+                    <p>
+                      <a
+                        href="index.html"
+                        style="color: rgb(175, 68, 6); font-weight: bolder;"
+                        >Close</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <p>
+                  4:58
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div>
+                <img src="img/rangasthalam.jpeg" />
+                <!--  <div class="play-button">
+                                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+                            </div> -->
+              </div>
+              <div class="songs">
+                <h3>
+                  Rangasthalam
+                </h3>
+                <p>
+                  29 Nov 2010
+                </p>
+              </div>
+              <div class="options">
+                <label for="latest-release-checkbox3"
+                  ><i class="fas fa-ellipsis-h"></i
+                ></label>
+                <input type="checkbox" id="latest-release-checkbox3" />
+                <div class="latest-dropdown">
+                  <div class="ditem">
+                    <p>
+                      <i class="fas fa-play-circle"></i>
+                      <a href="#">Play Now</a>
+                    </p>
+                  </div>
+                  <br />
+                  <div class="ditem">
+                    <p>
+                      <a
+                        href="index.html"
+                        style="color: rgb(175, 68, 6); font-weight: bolder;"
+                        >Close</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <p>
+                  3:02
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div>
+                <img src="img/nee kallalona.jpeg" />
+                <!-- <div class="play-button">
+                                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+                            </div> -->
+              </div>
+              <div class="songs">
+                <h3>
+                  Nee kallalona
+                </h3>
+                <p>
+                  17 Jun 2019
+                </p>
+              </div>
+              <div class="options">
+                <label for="latest-release-checkbox3"
+                  ><i class="fas fa-ellipsis-h"></i
+                ></label>
+                <input type="checkbox" id="latest-release-checkbox3" />
+                <div class="latest-dropdown">
+                  <div class="ditem">
+                    <p>
+                      <i class="fas fa-play-circle"></i>
+                      <a href="#">Play Now</a>
+                    </p>
+                  </div>
+                  <br />
+                  <div class="ditem">
+                    <p>
+                      <a
+                        href="index.html"
+                        style="color: rgb(175, 68, 6); font-weight: bolder;"
+                        >Close</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <p>
+                  3:02
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div>
+                <img src="img/whattey beauty.jpeg" />
+                <!--  <div class="play-button">
+                                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+                            </div> -->
+              </div>
+              <div class="songs">
+                <h3>
+                  Whattey Beauty
+                </h3>
+                <p>
+                  28 Oct 2019
+                </p>
+              </div>
+              <div class="options">
+                <label for="latest-release-checkbox4"
+                  ><i class="fas fa-ellipsis-h"></i
+                ></label>
+                <input type="checkbox" id="latest-release-checkbox4" />
+                <div class="latest-dropdown">
+                  <div class="ditem">
+                    <p>
+                      <i class="fas fa-play-circle"></i>
+                      <a href="#">Play Now</a>
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="ditem">
+                    <p>
+                      <a
+                        href="index.html"
+                        style="color: rgb(175, 68, 6); font-weight: bolder;"
+                        >Close</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <p>
+                  4:05
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- popular artists section -->
+        <div class="artists">
+          <h1 style="margin-bottom: 12px;">
+            Popular Heros
+          </h1>
+          <div class="artist-content">
+            <a href="#">
+              <div>
+                <img src="img/mahesh.jpeg" />
+                <div><i class="fas fa-play"></i></div>
+                <p>
+                  MAHESH
+                </p>
+              </div>
+            </a>
+            <a href="#">
+              <div>
+                <img src="img/pk.jpeg" />
+                <div><i class="fas fa-play"></i></div>
+                <p>
+                  PAWAN KALYAN
+                </p>
+              </div>
+            </a>
+            <a href="#">
+              <div>
+                <img src="img/ak.jpeg" width="15vw" height="10vw" />
+                <div><i class="fas fa-play"></i></div>
+                <p>
+                  AKHIL
+                </p>
+              </div>
+            </a>
+            <a href="#">
+              <div>
+                <img src="img/vd.jpeg" />
+                <div><i class="fas fa-play"></i></div>
+                <p>
+                  VIJAY
+                </p>
+              </div>
+            </a>
+            <a href="#">
+              <div>
+                <img src="img/prabhas.jpeg" />
+                <div><i class="fas fa-play"></i></div>
+                <p>
+                  PRABHAS
+                </p>
+              </div>
+            </a>
+            <a href="#">
+              <div>
+                <img src="img/ntr.jpeg" />
+                <div><i class="fas fa-play"></i></div>
+                <p>
+                  NTR
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- music themes part --->
+        <div class="themes">
+          <div class="stations">
+            <div id="purple1">
+              <div id="purple2">
+                <div id="purple3">
+                  <img src="img/website_logo.png" />
+                  <p>Fusions</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tmain">
+            <div class="tcontent">
+              <img src="img/chill.jpeg" />
+              <p>Vibe</p>
+            </div>
+            <div class="tcontent">
+              <img src="img/rock.jpg" />
+              <p>Rock</p>
+            </div>
+            <div class="tcontent">
+              <img src="img/love.jpg" />
+              <p>Love</p>
+            </div>
+            <div class="tcontent">
+              <img src="img/pop.jpeg" />
+              <p>Pop</p>
+            </div>
+            <div class="tcontent">
+              <img src="img/retro.jpg" />
+              <p>Retro</p>
+            </div>
+            <div class="tcontent">
+              <img src="img/workout.jpg" />
+              <p>GYM</p>
+            </div>
+          </div>
+        </div>
+        <div class="themes2">
+          <div class="outdiv">
+            <div class="indiv">
+              <span>party</span>
+            </div>
+          </div>
+          <div class="outdiv">
+            <div class="indiv">
+              <span>Electronic</span>
+            </div>
+          </div>
+          <div class="outdiv">
+            <div class="indiv">
+              <span>Travel</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- latest punjabi section -->
+        <div class="lan">
+          <h1 class="language-heading">
+            LATEST TELUGU
+          </h1>
+          <div class="lancontent">
+            <div>
+              <img src="img/whattey beauty.jpeg" />
+              <p>WHATTEY BEAUTY</p>
+              <p>2019</p>
+            </div>
+            <div>
+              <img src="img/bava.jpeg" />
+              <p>BAVA GARU VACHE</p>
+              <p>2020</p>
+            </div>
+            <div>
+              <img src="img/nee kallalona.jpeg" />
+              <p>NEE KALLALONA</p>
+              <p>2016</p>
+            </div>
+            <div>
+              <img src="img/jersey.jpeg" />
+              <p>ADHE ENTO UNNA PATUGA</p>
+              <p>2017</p>
+            </div>
+            <div>
+              <img src="img/chitti.jpeg" />
+              <p>CHITTI</p>
+              <p>2018</p>
+            </div>
+            <div>
+              <img src="img/nee kannu.jpeg" />
+              <p>NEE KANNU</p>
+              <p>2021</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- this is the hindi section -->
+        <div class="lan">
+          <h1 class="language-heading">
+            LATEST HINDI
+          </h1>
+          <div class="lancontent">
+            <div>
+              <img src="img/baarish.jpeg" />
+              <p>BAARISH</p>
+              <p>2019</p>
+            </div>
+            <div>
+              <img src="img/galiyaan.jpg" />
+              <p>GALIYAAN</p>
+              <p>2014</p>
+            </div>
+            <div>
+              <img src="img/giveme some sunshine.jpg" />
+              <p>GIVE ME SOME SUNSHINE</p>
+              <p>2009</p>
+            </div>
+            <div>
+              <img src="img/kaun tujhe.jpg" />
+              <p>KAUN TUJHE</p>
+              <p>2016</p>
+            </div>
+            <div>
+              <img src="img/tera ban jaunga.jpg" />
+              <p>TERA BAN JAUNGA</p>
+              <p>2019</p>
+            </div>
+            <div>
+              <img src="img/tere sang yara.jpg" />
+              <p>TERE SANG YAARA</p>
+              <p>2016</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- MASHUP section -->
+        <div class="lan">
+          <h1 class="language-heading">
+            MASH-UPS
+          </h1>
+          <div class="lancontent">
+            <div>
+              <img src="img/lovemashup.jpg" />
+              <p>THE LOVE MASHUP</p>
+              <p>2019</p>
+            </div>
+            <div>
+              <img src="img/loveyatri.jpeg" />
+              <p>LOVEYATRI MASHUP</p>
+              <p>2018</p>
+            </div>
+            <div>
+              <img src="img/terasuroor.jpeg" />
+              <p>TERA SUROOR</p>
+              <p>2015</p>
+            </div>
+            <div>
+              <img src="img/roymashup.jpeg" />
+              <p>ROY MASHUP</p>
+              <p>2015</p>
+            </div>
+            <div>
+              <img src="img/ekvillianmashup.jpg" />
+              <p>EK VILLIAN MASHUP</p>
+              <p>2014</p>
+            </div>
+            <div>
+              <img src="img/gundaymashup.jpg" />
+              <p>GUNDAY MASHUP</p>
+              <p>2014</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- second section -->
+      <label for="plist"
+        ><i class="fas fa-angle-double-left"></i>Playlist</label
+      >
+      <input type="checkbox" id="plist" />
+      <aside class="one second">
+        <div class="head">
+          <h1>Playlist</h1>
+          <h4>
+            <a href="#qbox"
+              >Playlist <i class="fas fa-chevron-circle-down"></i
+            ></a>
+          </h4>
+        </div>
+        <div class="queopt" id="qbox">
+          <p>
+            <a href="#" style="color: #bb54a1; font-weight: bolder;"
+              >Open Now</a
+            >
+          </p>
+          <hr />
+          <p>
+            <a href="#" style="color: rgb(230, 19, 19); font-weight: bolder;"
+              >Close</a
+            >
+          </p>
+        </div>
+        <div class="plistcon">
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                01
+              </div>
+              <div class="cover">
+                <img src="img/nee kannu.jpeg" />
+                <!--  <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  NEE KANNU
+                </div>
+                <p>
+                  Anurag
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                02
+              </div>
+              <div class="cover">
+                <img src="img/jersey.jpeg" />
+                <!--  <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  ADHE ENTO UNAPATUGA
+                </div>
+                <p>
+                  Sid Sri Ram
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                03
+              </div>
+              <div class="cover">
+                <img src="img/whattey beauty.jpeg" />
+                <!--  <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  WHATTEY BEAUTY
+                </div>
+                <p>
+                  Suresh
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                04
+              </div>
+              <div class="cover">
+                <img src="img/nee kallalona.jpeg" />
+                <!-- <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  NEE KALLALONA
+                </div>
+                <p>
+                  Ramu
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                05
+              </div>
+              <div class="cover">
+                <img src="img/rangasthalam.jpeg" />
+                <!-- <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  Ranga Ranga
+                </div>
+                <p>
+                  Rahul
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                06
+              </div>
+              <div class="cover">
+                <img src="img/inkem inkem.jpeg" />
+                <!--  <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  INKEM INKEM
+                </div>
+                <p>
+                  Sid Sri Ram
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                07
+              </div>
+              <div class="cover">
+                <img src="img/chitti.jpeg" />
+                <!--  <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  CHITTI
+                </div>
+                <p>
+                  Anurag
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                08
+              </div>
+              <div class="cover">
+                <img src="img/bava.jpeg" />
+                <!--  <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  BAVA GARU VACHE
+                </div>
+                <p>
+                  Sai Ram
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                09
+              </div>
+              <div class="cover">
+                <img src="img/giveme some sunshine.jpg" />
+                <!-- <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  GIVE ME SOME SUNSHINE
+                </div>
+                <p>
+                  Sharman Joshi
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                10
+              </div>
+              <div class="cover">
+                <img src="img/galiyaan.jpg" />
+                <!--  <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  GALIYAAN
+                </div>
+                <p>
+                  Ankit Tiwari
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                11
+              </div>
+              <div class="cover">
+                <img src="img/baarish.jpeg" />
+                <!-- <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  BAARISH
+                </div>
+                <p>
+                  Mohammed Irfan
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="pitem">
+            <div class="lcon">
+              <div style="margin-right: 4px;">
+                12
+              </div>
+              <div class="cover">
+                <img src="img/PA4.jpg" />
+                <!--  <div class="play-button">
+                                <i class="fas fa-play" aria-hidden="true"></i>
+                            </div> -->
+              </div>
+              <div>
+                <div>
+                  Golden
+                </div>
+                <p>
+                  BTS
+                </p>
+              </div>
+            </div>
+            <div class="rcon">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <div class="activesong">
+        <div id="sgimg">
+          <img src="img/rangasthalam.jpeg" />
+        </div>
+        <div class="sgdesc">
+          <div>
+            RANGA RANGA
+          </div>
+          <div>
+            Rahul
+          </div>
+        </div>
+
+        <div class="fticon">
+          <span>
+            <i class="far fa-heart"></i>
+          </span>
+          <span>
+            <i class="fas fa-ban"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="player">
+        <audio controls>
+          <source src="audio/music.mp3" type="audio/mp3" />
+        </audio>
+      </div>
+      <div class="ext">
+        <div><i class="fas fa-list-ul"></i></div>
+        <div><i class="fa fa-eject"></i></div>
+        <div><i class="fa fa-music"></i></div>
+        <div><i class="fas fa-random"></i></div>
+        <div><i class="fas fa-redo"></i></div>
+      </div>
+    </footer>
+  </body>
+</html>
