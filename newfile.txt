@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Dev branch text
+=======
+master branch text
+>>>>>>> parent of b490030 (Revert "firstcommit")
